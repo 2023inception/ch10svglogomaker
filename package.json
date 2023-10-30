@@ -1,17 +1,32 @@
 {
-  "name": "cli",
+  "name": "Custom-SVG-Logo-Generator",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
-  "description": "A command line generator that will generate a shape and text based on the input",
-  "author": "Your Name",
-  "license": "MIT",
-  "devDependencies": {
-    "jest": "^29.7.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeNameNoah/Custom-SVG-Logo-Generator.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeNameNoah/Custom-SVG-Logo-Generator/issues"
+  },
+  "homepage": "https://github.com/CodeNameNoah/Custom-SVG-Logo-Generator#readme",
   "dependencies": {
-    "inquirer": "^9.2.11"
+    "inquirer": "^8.2.4",
+    "is-css3-color": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
